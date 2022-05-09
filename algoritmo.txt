@@ -23,6 +23,7 @@ Inicio
 				escreva (''RECUPERAÇÃO!'')
 			SENÃO
 				escreva (''REPROVADO!'')
+			FIMSE
 		SENÃO
 			escreva (''ra inválido'')
 			

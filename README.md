@@ -1,7 +1,7 @@
 # Cálcuo da Média do Fundamental
 ## Algoritmo e fluxograma 
 
-Inicio
+INÍCIO
 
 		var
 		i = 0, j = 0, ra, nota1, nota2, nota3, média;
@@ -13,8 +13,8 @@ Inicio
 		SE ra for diferente de zero FAÇA
 		  	j++
 		  	escreva (''Aluno 'J',Digite sua primeira nota'')
-			  leia (nota1)
-			  escreva (''Aluno 'J',Digite sua segunda nota'')
+			leia (nota1)
+			escreva (''Aluno 'J',Digite sua segunda nota'')
 		  	leia (nota2)
 		  	escreva (''Aluno 'J',Digite sua terceira nota'')
 		  	leia (nota3)
@@ -27,7 +27,7 @@ Inicio
 	  			escreva (''RECUPERAÇÃO!'')
 	  		SENÃO
 		  		escreva (''REPROVADO!'')
-        FIMSE
+        		FIMSE
 		SENÃO
 			escreva (''ra inválido'')
 			

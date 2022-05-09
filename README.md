@@ -1,6 +1,7 @@
 # Cálcuo da Média do Fundamental
 ## Algoritmo e fluxograma 
 
+## Algoritmo
 INÍCIO
 
 		var
@@ -33,4 +34,6 @@ INÍCIO
 			
 		FIMSE
 FIM
+## Fluxograma
+![calculomediafor](https://user-images.githubusercontent.com/104536317/167487277-8ec363f7-e638-4f03-84ef-12fd3e8ad54d.png)
 

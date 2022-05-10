@@ -11,7 +11,7 @@ public class CalculoMediaFundamental {
 		int i, j = 0, ra;
 		double ava1, ava2, ava3, media; // avaliacao
 
-		for (i = 1; i <= 5; i++) {// repetição
+		for (i = 0; i <= 5; i++) {// repetiÃ§Ã£o
 			System.out.print("Digite seu RA: ");
 			ra = sc.nextInt();// receber valor do RA
 			if (ra != 0) { // se o RA for diferente de zero, ira receber as notas 1 , 2 e 3!
@@ -26,16 +26,16 @@ public class CalculoMediaFundamental {
 				media = (ava1 + ava2 + ava3) / 3;// calculando a media
 
 				if (media >= 8) {// se for maior igual a 8
-					System.out.println("Aprovado, parabéns!");
+					System.out.println("Aprovado, parabÃ©ns!");
 				} else if (media >= 6 && media < 8) {// maior que 6 e menor que 8
-					System.out.println("Recuperação!");
+					System.out.println("RecuperaÃ§Ã£o!");
 				} else {// menor ou igual a 6
 					System.out.println("Reprovado!");
 				}
 				System.out.println();
 
 			} else {// se RA for zero, ira encerrar e comecara outra contagem
-				System.out.println("RA inválido!\n");
+				System.out.println("RA invÃ¡lido!\n");
 			}
 		}
 

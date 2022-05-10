@@ -3,6 +3,7 @@ Inicio
 		i = 0, j = 0, ra, nota1, nota2, nota3, média;
 		
 		enquanto i <= 5 FAÇA
+		i++
 		escreva (''Digite seu RA'')
 		leia (ra)
 		
